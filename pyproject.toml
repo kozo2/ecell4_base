@@ -2,7 +2,7 @@
 [tool.cibuildwheel.linux]
 # Run multiple commands using an array
 before-all = [
-  "yum install libhdf5-devel -y",
-  "yum install libboost-devel -y",
-  "yum install libgsl-devel -y",
+  "yum install hdf5-devel -y",
+  "yum install boost-devel -y",
+  "yum install gsl-devel -y",
 ]
